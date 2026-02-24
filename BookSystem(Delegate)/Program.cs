@@ -52,15 +52,19 @@ namespace BookSystem_Delegate_
 							operation = null;
 							break;
 						case "1":
-							Console.WriteLine("Add book method!\nEnter book name: ");
-							string bookName = Console.ReadLine();
-							Console.WriteLine("Enter book author: ");
-							string author = Console.ReadLine();
-							Console.WriteLine("Enter page count:");
-							int pageCount = int.Parse(Console.ReadLine());
-							Book newBook = new Book(bookName, author, pageCount);
-							library1.AddBook(newBook);
-							Console.WriteLine("Added succesfully!");
+							if (user1.Role == Role.Admin)
+							{
+								Console.WriteLine("Add book method!\nEnter book name: ");
+								string bookName = Console.ReadLine();
+								Console.WriteLine("Enter book author: ");
+								string author = Console.ReadLine();
+								Console.WriteLine("Enter page count:");
+								int pageCount = int.Parse(Console.ReadLine());
+								Book newBook = new Book(bookName, author, pageCount);
+								library1.AddBook(newBook);
+								Console.WriteLine("Added succesfully!");
+							}
+							Console.WriteLine("Members can not use this operation!");
 							break;
 						case "2":
 							Console.WriteLine("Enter the id u want to check: ");
@@ -73,15 +77,23 @@ namespace BookSystem_Delegate_
 							library1.GetAllBooks();
 							break;
 						case "4":
-							Console.WriteLine("Enter the id u want to delete: ");
-							int deleteId = int.Parse(Console.ReadLine());
-							library1.DeleteBookById(deleteId);
-							Console.WriteLine($"Deleted the book with id - {deleteId}");
+							if (user1.Role == Role.Admin)
+							{
+								Console.WriteLine("Enter the id u want to delete: ");
+								int deleteId = int.Parse(Console.ReadLine());
+								library1.DeleteBookById(deleteId);
+								Console.WriteLine($"Deleted the book with id - {deleteId}");
+							}
+							Console.WriteLine("Members are not allowed to use this operation!");
 							break;
 						case "5":
-							Console.WriteLine("Enter book id that you want to edit: ");
-							int editId = int.Parse(Console.ReadLine());
-							library1.EditBookName(editId);
+							if (user1.Role == Role.Admin)
+							{
+								Console.WriteLine("Enter book id that you want to edit: ");
+								int editId = int.Parse(Console.ReadLine());
+								library1.EditBookName(editId);
+							}
+							Console.WriteLine("Members are not allowed to use this operation!");
 							break;
 						case "6":
 							Console.WriteLine("Enter minimum page count to filter: ");
