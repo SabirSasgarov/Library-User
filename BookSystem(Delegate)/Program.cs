@@ -74,7 +74,9 @@ namespace BookSystem_Delegate_
 							break;
 						case "3":
 							Console.WriteLine("All books: ");
-							library1.GetAllBooks();
+							List<Book>bookList=library1.GetAllBooks();
+							foreach (var item in bookList)
+								item.ShowInfo();
 							break;
 						case "4":
 							if (user1.Role == Role.Admin)
