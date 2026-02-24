@@ -7,16 +7,24 @@
       "RelativeMoniker": "D:0:0:{02C5380D-26B4-478B-81EA-53372A8FC5FA}|BookSystem(Delegate)\\BookSystem(Delegate).csproj|solutionrelative:booksystem(delegate)\\models\\library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02C5380D-26B4-478B-81EA-53372A8FC5FA}|BookSystem(Delegate)\\BookSystem(Delegate).csproj|c:\\users\\admin\\onedrive\\\u0130\u015F masas\u0131\\programs\\booksystem(delegate)\\booksystem(delegate)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02C5380D-26B4-478B-81EA-53372A8FC5FA}|BookSystem(Delegate)\\BookSystem(Delegate).csproj|solutionrelative:booksystem(delegate)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{02C5380D-26B4-478B-81EA-53372A8FC5FA}|BookSystem(Delegate)\\BookSystem(Delegate).csproj|c:\\users\\admin\\onedrive\\\u0130\u015F masas\u0131\\programs\\booksystem(delegate)\\booksystem(delegate)\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{02C5380D-26B4-478B-81EA-53372A8FC5FA}|BookSystem(Delegate)\\BookSystem(Delegate).csproj|solutionrelative:booksystem(delegate)\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{02C5380D-26B4-478B-81EA-53372A8FC5FA}|BookSystem(Delegate)\\BookSystem(Delegate).csproj|c:\\users\\admin\\onedrive\\\u0130\u015F masas\u0131\\programs\\booksystem(delegate)\\booksystem(delegate)\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{02C5380D-26B4-478B-81EA-53372A8FC5FA}|BookSystem(Delegate)\\BookSystem(Delegate).csproj|solutionrelative:booksystem(delegate)\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9ECBE75-65B6-4E27-888D-F1B2EDFD3087}|Utils\\Utils.csproj|c:\\users\\admin\\onedrive\\\u0130\u015F masas\u0131\\programs\\booksystem(delegate)\\utils\\exceptions\\alreadyexistsexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9ECBE75-65B6-4E27-888D-F1B2EDFD3087}|Utils\\Utils.csproj|solutionrelative:utils\\exceptions\\alreadyexistsexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9ECBE75-65B6-4E27-888D-F1B2EDFD3087}|Utils\\Utils.csproj|c:\\users\\admin\\onedrive\\\u0130\u015F masas\u0131\\programs\\booksystem(delegate)\\utils\\enums\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9ECBE75-65B6-4E27-888D-F1B2EDFD3087}|Utils\\Utils.csproj|solutionrelative:utils\\enums\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02C5380D-26B4-478B-81EA-53372A8FC5FA}|BookSystem(Delegate)\\BookSystem(Delegate).csproj|c:\\users\\admin\\onedrive\\\u0130\u015F masas\u0131\\programs\\booksystem(delegate)\\booksystem(delegate)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02C5380D-26B4-478B-81EA-53372A8FC5FA}|BookSystem(Delegate)\\BookSystem(Delegate).csproj|solutionrelative:booksystem(delegate)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,20 +34,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\\u0130\u015F masas\u0131\\Programs\\BookSystem(Delegate)\\BookSystem(Delegate)\\Program.cs",
               "RelativeDocumentMoniker": "BookSystem(Delegate)\\Program.cs",
               "ToolTip": "C:\\Users\\Admin\\OneDrive\\\u0130\u015F masas\u0131\\Programs\\BookSystem(Delegate)\\BookSystem(Delegate)\\Program.cs",
               "RelativeToolTip": "BookSystem(Delegate)\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-23T18:30:21.985Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AlreadyExistsException.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\\u0130\u015F masas\u0131\\Programs\\BookSystem(Delegate)\\Utils\\Exceptions\\AlreadyExistsException.cs",
+              "RelativeDocumentMoniker": "Utils\\Exceptions\\AlreadyExistsException.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\\u0130\u015F masas\u0131\\Programs\\BookSystem(Delegate)\\Utils\\Exceptions\\AlreadyExistsException.cs",
+              "RelativeToolTip": "Utils\\Exceptions\\AlreadyExistsException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T08:12:26.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\\u0130\u015F masas\u0131\\Programs\\BookSystem(Delegate)\\Utils\\Enums\\Role.cs",
+              "RelativeDocumentMoniker": "Utils\\Enums\\Role.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\\u0130\u015F masas\u0131\\Programs\\BookSystem(Delegate)\\Utils\\Enums\\Role.cs",
+              "RelativeToolTip": "Utils\\Enums\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T08:10:29.472Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -49,26 +84,27 @@
               "RelativeDocumentMoniker": "BookSystem(Delegate)\\Models\\Library.cs",
               "ToolTip": "C:\\Users\\Admin\\OneDrive\\\u0130\u015F masas\u0131\\Programs\\BookSystem(Delegate)\\BookSystem(Delegate)\\Models\\Library.cs",
               "RelativeToolTip": "BookSystem(Delegate)\\Models\\Library.cs",
-              "ViewState": "AgIAAEwAAAAAZmZmZmYiwFkAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAgJmZmZnZvwsAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-23T20:34:43.203Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Book.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\\u0130\u015F masas\u0131\\Programs\\BookSystem(Delegate)\\BookSystem(Delegate)\\Models\\Book.cs",
               "RelativeDocumentMoniker": "BookSystem(Delegate)\\Models\\Book.cs",
               "ToolTip": "C:\\Users\\Admin\\OneDrive\\\u0130\u015F masas\u0131\\Programs\\BookSystem(Delegate)\\BookSystem(Delegate)\\Models\\Book.cs",
               "RelativeToolTip": "BookSystem(Delegate)\\Models\\Book.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAACgmZmZmZkhwB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-23T20:30:27.239Z"
+              "WhenOpened": "2026-02-23T20:30:27.239Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\\u0130\u015F masas\u0131\\Programs\\BookSystem(Delegate)\\BookSystem(Delegate)\\Models\\User.cs",
               "RelativeDocumentMoniker": "BookSystem(Delegate)\\Models\\User.cs",
@@ -76,7 +112,8 @@
               "RelativeToolTip": "BookSystem(Delegate)\\Models\\User.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAAABkAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-23T20:24:00.586Z"
+              "WhenOpened": "2026-02-23T20:24:00.586Z",
+              "EditorCaption": ""
             }
           ]
         }
