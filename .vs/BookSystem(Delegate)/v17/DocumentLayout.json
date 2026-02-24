@@ -39,8 +39,7 @@
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-23T18:30:21.985Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -50,7 +49,7 @@
               "RelativeDocumentMoniker": "BookSystem(Delegate)\\Models\\Library.cs",
               "ToolTip": "C:\\Users\\Admin\\OneDrive\\\u0130\u015F masas\u0131\\Programs\\BookSystem(Delegate)\\BookSystem(Delegate)\\Models\\Library.cs",
               "RelativeToolTip": "BookSystem(Delegate)\\Models\\Library.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACYAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAEwAAAAAZmZmZmYiwFkAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-23T20:34:43.203Z",
               "EditorCaption": ""
@@ -65,8 +64,7 @@
               "RelativeToolTip": "BookSystem(Delegate)\\Models\\Book.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-23T20:30:27.239Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-23T20:30:27.239Z"
             },
             {
               "$type": "Document",
@@ -78,8 +76,7 @@
               "RelativeToolTip": "BookSystem(Delegate)\\Models\\User.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAAABkAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-23T20:24:00.586Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-23T20:24:00.586Z"
             }
           ]
         }

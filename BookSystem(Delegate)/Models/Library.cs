@@ -1,4 +1,5 @@
 ﻿using BookSystem_Delegate_.Interfaces;
+using System.ComponentModel.DataAnnotations;
 using System.Data;
 using Utils.Exceptions;
 
@@ -48,8 +49,48 @@ namespace BookSystem_Delegate_.Models
 			return null;
 		}
 
+		public void DeleteBookById(int? id)
+		{
+			if (id == null)
+				throw new NullReferenceException();
+			foreach (var item in _books)
+			{
+				if (item.Id == id && item.IsDeleted == false)
+				{
+					item.IsDeleted = true;
+					return;
+				}
+			}
+			throw new NotFoundException("There is no book with the given index!");
+		}
+		
+		public void EditBookName(int? id)
+		{
+			if (id == null)
+				throw new NullReferenceException();
+			foreach (var item in _books)
+			{
+				if (item.Id == id)
+				{
+					Console.WriteLine("Enter new book name: ");
+					string newName = Console.ReadLine();
+					item.Name = newName;
+					return;
+				}
+			}
+			throw new NotFoundException("There is no book with the given index!");
+		}
 
-
+		public List<Book> FilterByPageCount(int minPageCount, int maxPageCount)
+		{
+			List<Book> newBooks = new List<Book>();
+			foreach (var item in _books)
+			{
+				if(item.PageCount >= minPageCount && item.PageCount <= maxPageCount && item.IsDeleted == false)
+					newBooks.Add(item);
+			}
+			return newBooks;
+		}
 
 		public List<Book> GetAllBooks()
 		{
